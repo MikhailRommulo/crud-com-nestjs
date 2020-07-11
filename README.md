@@ -90,4 +90,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
       "logging": true
     }
   </pre>
+<p>Dependências</p>
+<pre>
+  npm i --save pg typeorm @nestjs/typeorm @nestjsx/crud @nestjsx/crud-typeorm class-transformer @nestjs/swagger
+</pre>
 <p>Com pouco código já terá todas as funções de um crud básico, como visto na documentação do <a href="https://github.com/nestjsx/crud/wiki/Controllers#api-endpoints">nest</a></p>
