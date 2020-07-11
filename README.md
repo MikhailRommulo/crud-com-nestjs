@@ -73,3 +73,21 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
+
+  <hr>
+
+  <p>Adicione o ormconfig.json na raiz da aplicação para se conectar ao banco, no caso o postgres</p>
+  <pre>
+    {
+      "type": "postgres",
+      "host": "localhost",
+      "port": 5432,
+      "username": "&lsaquo;seu usuario&rsaquo;",
+      "password": "&lsaquo;sua senha&rsaquo;",
+      "database": "&lsaquo;seu banco&rsaquo;",
+      "entities": ["dist/**/*.entity.js"],
+      "synchronize": true,
+      "logging": true
+    }
+  </pre>
+<p>Com pouco código já terá todas as funções de um crud básico, como visto na documentação do <a href="https://github.com/nestjsx/crud/wiki/Controllers#api-endpoints">nest</a></p>
